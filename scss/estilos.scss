@@ -1,0 +1,105 @@
+body {
+    background: rgb(242, 217, 243);
+    background: linear-gradient(90deg, rgba(242, 217, 243, 1) 0%, rgba(175, 150, 176, 1) 60%, rgba(143, 86, 148, 1) 100%);
+}
+
+#logoBazar {
+    width: 20%;
+    height: 20%;
+    min-height: 120px;
+    min-width: 200px;
+}
+
+/* barra navegacion */
+
+#navbarNav ul {
+    border-radius: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+#navbarNav ul li a {
+    color: white;
+}
+
+/* footer abajo */
+
+footer {
+    font-size: 12px;
+    position: relative;
+    bottom: 10px;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #530d58;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+#instagram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#redes-text {
+    text-decoration: none;
+    color: black;
+}
+
+#youtube {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+/* titulos y parrafos de todas las paginas */
+
+.titulo {
+    text-align: center;
+    color: #721278;
+    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+p {
+    text-align: justify;
+}
+
+/* pagina principal */
+
+#cuerpo {
+    margin-bottom: 100px;
+}
+
+#video-introductorio iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+}
+
+#mapa iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 250px;
+}
+
+@media only screen and (min-width:992px) {
+
+    #navbarNav ul li a:hover {
+        background-color: #721278;
+        transform: scale(1.2);
+        border-radius: 15px;
+    }
+
+}
